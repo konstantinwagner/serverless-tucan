@@ -4,6 +4,11 @@ from grade.grade import Grade
 
 
 def compare_grades(old_grades: List[Grade], new_grades: List[Grade]) -> List[Tuple[Grade, Grade]]:
+    """
+    :param old_grades: Comparison object 'old'
+    :param new_grades: Comparison object 'new'
+    :return: list differences between old and new grades represented by tuples (old, new) or (None, new) (if new grade)
+    """
     remaining_new = list(new_grades)
     differences = []
 

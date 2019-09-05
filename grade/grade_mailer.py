@@ -12,6 +12,10 @@ sender = os.environ["SENDER_MAIL_ADDRESS"]
 
 
 def send_grade_mail(grade_changes: List[Tuple[Grade, Grade]]):
+    """
+    Send an notification email to user which contains all given grade changes.
+    :param grade_changes: grade changes to notify about
+    """
     ses.send_templated_email(
         Source=sender,
         Destination={

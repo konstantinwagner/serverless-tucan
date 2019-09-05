@@ -2,6 +2,10 @@ from marshmallow import Schema, fields, post_load
 
 
 class Grade:
+    """
+    Represents a grade (equivalence is defined by title and date)
+    """
+
     def __init__(self, title: str, grade: float, date: str):
         self.title = title
         self.grade = grade
@@ -12,6 +16,10 @@ class Grade:
 
 
 class GradeSchema(Schema):
+    """
+    Represents the json grade schema for database dumps.
+    """
+
     title = fields.Str()
     grade = fields.Number()
     date = fields.Str()
