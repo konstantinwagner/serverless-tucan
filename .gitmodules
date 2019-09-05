@@ -1,0 +1,3 @@
+[submodule "lib/tucan-tools-lib"]
+	path = lib/tucan-tools-lib
+	url = https://github.com/konstantinwagner/tucan-tools-lib.git
