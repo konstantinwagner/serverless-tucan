@@ -1,7 +1,7 @@
 {
   "Template": {
     "TemplateName": "serverless-tucan-new-grade",
-    "SubjectPart": "☢️️🎓 TUCaN grade alert",
+    "SubjectPart": "️🎓 TUCaN Grade Alert",
     "HtmlPart": "<h1> <span style=\"font-family: helvetica, arial, sans-serif; padding: 10px; line-height: 200%; color: white; background-color: black;\">Your grades have been updated!</span></h1><table style=\"font-family: helvetica, arial, sans-serif; width: 100%; text-align: center;\"> <thead> <tr> <th style=\"padding: 10px; color: white; background-color: black;\">Title</th> <th style=\"padding: 10px; color: white; background-color: black;\">Old grade</th> <th style=\"padding: 10px; color: white; background-color: black;\">New grade</th> </tr></thead> <tbody>{{#each gradeChanges}}<tr> <td style=\"padding: 10px; background-color: whitesmoke;\">{{title}}</td><td style=\"padding: 10px; background-color: whitesmoke;\">{{oldGrade}}</td><td style=\"padding: 10px; background-color: whitesmoke;\">{{newGrade}}</td></tr>{{/each}}</tbody></table>"
   }
 }
