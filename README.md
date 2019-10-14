@@ -17,7 +17,7 @@ TL;DR: AWS account, installed serverless and aws toolchain (don't forget to `aws
 
 4. If you don't asked for a SES limit increase yet you need confirm both your sender and receiver address from the step before: https://docs.aws.amazon.com/en_pv/ses/latest/DeveloperGuide/verify-email-addresses-procedure.html
 
-5. `./create-templates.sh`
+5. `./update_templates.sh`
 
 6. `sls deploy`
 
