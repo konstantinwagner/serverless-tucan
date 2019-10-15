@@ -19,6 +19,8 @@ TL;DR: AWS account, installed serverless and aws toolchain (don't forget to `aws
 
 5. `./update_templates.sh`
 
-6. `sls deploy`
+6. `yarn install`
+
+7. `sls deploy`
 
 Now you are all set and should receive an initial mail with all of your grades exactly one hour after deployment!
