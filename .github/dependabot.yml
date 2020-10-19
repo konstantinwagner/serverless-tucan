@@ -2,6 +2,8 @@ version: 2
 updates:
   - package-ecosystem: pip
     directory: /
+    ignore:
+      - dependency-name: tucan-tools-lib-konstantinwagner
     schedule:
       interval: monthly
   - package-ecosystem: npm
